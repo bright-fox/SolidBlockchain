@@ -1,0 +1,19 @@
+{
+  "name": "cleanexpiredacl",
+  "version": "1.0.0",
+  "description": "Server module which automates the deletion of expired acl triples in the solid pod",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Anett Katzenbach, Hendrik Becker, Hung Vu",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "n3": "^1.8.0",
+    "solid-node-client": "^1.2.4"
+  },
+  "type": "module"
+}
