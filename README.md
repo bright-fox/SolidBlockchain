@@ -1,6 +1,16 @@
-# Solidblockchain
+# Monetising Resources on a SoLiD Pod Using Blockchain Transactions ([ESWC Demo](https://2021.eswc-conferences.org/about/))
+_Hendrik Becker, [Hung Vu](https://github.com/bright-fox), Anett Katzenbach, [Christoph Braun](https://github.com/uvdsl) & [Tobias Käfer](https://www.aifb.kit.edu/web/Tobias_K%C3%A4fer), [Institute AIFB, Karlsruhe Institute of Technology (KIT), Germany](https://aifb.kit.edu/web/Hauptseite/en)_
 
-Combine SoLid and Ethereum blockchain to create a peer-to-peer network for users to exchange resources for payment.
+**Abstract.** Our demo showcases a system that allows users to provide access to web resources in exchange for payments via the Ethereum blockchain. The system enables users to create offers for their resources or buy access rights for resources belonging to other users. Access rights can be granted only for a limited amount of time. We built our system as SoLiD Pods and Apps: We developed two server modules for SoLiD Pods that automatically (1) grant access for valid payments via the blockchain and (2) remove expired access rights. On top, we developed a SoLiD App that allows to offer resources, browse and request offered resources, and make payments via the blockchain.
+
+| Resource | URI |
+|---|---|
+|Teaser (1 min) | https://www.youtube.com/watch?v=sqIeYRTrkEg |
+| Website (inkl. 3 min video) | http://people.aifb.kit.edu/co1683/2021/eswc-demo-solibra/ |
+| Paper | http://people.aifb.kit.edu/co1683/2021/eswc-demo-solibra/solibra.pdf |
+| Code | https://github.com/bright-fox/SolidBlockchain |
+
+Below, you find detailled instructions on how to set up our demo application.
 
 ## Steps to deploy the application on a server or to run it locally
 
